@@ -96,6 +96,44 @@
 }
 ```
 
+## Agent Skills
+
+文档：<https://zed.dev/docs/ai/skills>
+
+Skill 保存路径：
+
+| 范围 | 路径 |
+|------|------|
+| 全局 | `~/.agents/skills/<skill-name>/SKILL.md` |
+| 项目级 | `<worktree>/.agents/skills/<skill-name>/SKILL.md` |
+
+项目级同名 Skill 覆盖全局。
+
+### 核心 Skill：ponytail
+
+Ponytail 让 Agent 像 lazy senior dev 一样思考——YAGNI、优先 stdlib、原生功能、一行代码。
+
+安装方式：从仓库复制到 `~/.agents/skills/`：
+
+```bash
+cp -r <ponytail-repo>/skills/ponytail* ~/.agents/skills/
+```
+
+包含 6 个子 Skill：
+
+| Skill | 用途 | 触发 |
+|-------|------|------|
+| `ponytail` | 懒人模式下写最简代码（默认 full 级别） | 自动 / `/ponytail` |
+| `ponytail-review` | 审查 diff 过度工程 | `/ponytail-review` |
+| `ponytail-audit` | 全仓库过度工程审计 | `/ponytail-audit` |
+| `ponytail-debt` | 提取 `ponytail:` 注释成技术债台账 | `/ponytail-debt` |
+| `ponytail-gain` | 展示基准测试量化收益 | `/ponytail-gain` |
+| `ponytail-help` | 命令速查卡 | `/ponytail-help` |
+
+强度级别：`lite`（命名替代方案）/ `full`（默认，强制执行阶梯）/ `ultra`（YAGNI 极端模式）。
+
+仓库：<https://github.com/DietrichGebert/ponytail>
+
 ## 完整参考
 
 全部可用设置项参见官方文档：<https://zed.dev/docs/reference/all-settings>
