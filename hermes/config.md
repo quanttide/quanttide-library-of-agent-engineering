@@ -1,7 +1,8 @@
 # Hermes 配置参考
 
-> Hermes 是一个终端 AI 编码 agent，由 generativebootstrap 开发。
-> 开源仓库已归档。以下内容基于公开文档总结。
+> Hermes 是一个终端 AI 编码 agent，由 Nous Research 开发。
+> 开源仓库：https://github.com/nousresearch/hermes-agent（213k stars, MIT 许可证）
+> 仍在活跃开发，最新版本 v0.18.2（2026-07-08）。
 
 ## 配置文件位置
 
