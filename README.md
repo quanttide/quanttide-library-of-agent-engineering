@@ -11,3 +11,4 @@ QuantTide Library of Agent Engineering
 | `zed/config.md` | Zed 编辑器 | settings.json 完整配置参考 |
 | `opencode/config.md` | OpenCode | .opencode.json 配置结构 |
 | `hermes/config.md` | Hermes | 终端 AI Agent 配置 |
+| `hermes/session.md` | Hermes | Session 存储与上下文压缩机制（排查意图偏差用） |
