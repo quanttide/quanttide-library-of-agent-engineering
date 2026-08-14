@@ -12,3 +12,4 @@ QuantTide Library of Agent Engineering
 | `opencode/config.md` | OpenCode | .opencode.json 配置结构 |
 | `hermes/config.md` | Hermes | 终端 AI Agent 配置 |
 | `hermes/session.md` | Hermes | Session 存储与上下文压缩机制（排查意图偏差用） |
+| `deepseek-harness/index.md` | DeepSeek Harness (dsh) | DeepSeek 官方 agent harness 调研：架构、配置、工具目录 |
