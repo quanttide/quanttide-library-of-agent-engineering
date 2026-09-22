@@ -14,3 +14,4 @@ QuantTide Library of Agent Engineering
 | `hermes/session.md` | Hermes | Session 存储与上下文压缩机制（排查意图偏差用） |
 | `deepseek-harness/index.md` | DeepSeek Harness (dsh) | DeepSeek 官方 agent harness 调研：架构、配置、工具目录 |
 | `haystack/README.md` | Haystack | LLM 应用框架调研：RAG 流水线、组件与文档存储，Agent 记忆与检索增强参考 |
+| `vicoa/index.md` | Vicoa | 开源 AI 编排器调研：多智能体并行编排（git worktree 隔离）、统一指挥台、多端协同与通知、BYO-key |
