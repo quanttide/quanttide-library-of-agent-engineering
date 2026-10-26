@@ -15,3 +15,4 @@ QuantTide Library of Agent Engineering
 | `deepseek-harness/index.md` | DeepSeek Harness (dsh) | DeepSeek 官方 agent harness 调研：架构、配置、工具目录 |
 | `haystack/README.md` | Haystack | LLM 应用框架调研：RAG 流水线、组件与文档存储，Agent 记忆与检索增强参考 |
 | `vicoa/index.md` | Vicoa | 开源 AI 编排器调研：多智能体并行编排（git worktree 隔离）、统一指挥台、多端协同与通知、BYO-key |
+| `herdr/index.md` | Herdr | 终端智能体运行时调研：server/client 分离、PTY 持久化与跨机 attach、智能体状态识别与等待语义、socket API 与插件（qtcloud-agent 的主要参考框架） |
